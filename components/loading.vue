@@ -1,5 +1,6 @@
 <template>
   <div class="loading-page" v-if="loading">
+    <img src="loading-balls.svg" width="64" height="64" alt="">
     <p>Loading...</p>
   </div>
 </template>
